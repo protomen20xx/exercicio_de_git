@@ -1,0 +1,37 @@
+body {
+    background: #D0E4F5 url("https://media.tenor.com/lDEUTIyCI3kAAAAi/paralysie-paralysie-du-sommeil.gif") repeat fixed 50px 50px;
+    background-color:#000000;
+}
+
+h1 {
+  font-size: 900px; /* Tamanho da fonte */
+  color: #eeff00;     /* Cor do texto */
+  text-align: center; /* Alinhamento (center, left, right) */
+  margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+#demotext {
+color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+color: #FFFFFF;
+background: #000000;
+font-size: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p {
+  color: #ff0505;
+  text-shadow: 0 0 8px #850404, 0 0 20px #ff0505;
+  background-color: #000000; /* Fundo escuro realça o neon */
+  font-size: 100px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Gives the container height so vertical centering is visible */
+}
